@@ -1,3 +1,5 @@
+// size of datatype khác nhau phụ thuộc vào môi trường triển khai và architecture
+
 #include <stdio.h>
 
 int main() {
