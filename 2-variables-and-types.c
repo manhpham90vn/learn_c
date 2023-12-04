@@ -4,31 +4,32 @@ int main() {
     // int
     int age;
     age = 37;
-    printf("%d\n", age);
+    printf("age: %d\n", age);
 
     // unsigned int
     unsigned int test;
     test = 1;
-    printf("%d\n", test);
+    printf("test: %d\n", test);
 
     // char
     char s = 'M';
-    printf("%c\n", s);
+    printf("s: %c\n", s);
 
     // float
     float f = 1.0;
-    printf("%f\n", f);
+    printf("f: %f\n", f);
 
     // double
     double d = 2.0;
-    printf("%f\n", d);
+    printf("d: %f\n", d);
 
     // overflow issue
     unsigned char j = 255;
     j = j + 10;
-    printf("%d\n", j);
+    printf("j: %d\n", j);
     
     // size of datatype
+    // depend on os & architecuture
     printf("char size: %lu bytes\n", sizeof(char));
     printf("int size: %lu bytes\n", sizeof(int));
     printf("short size: %lu bytes\n", sizeof(short));
