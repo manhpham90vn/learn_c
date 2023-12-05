@@ -3,7 +3,7 @@
 // struct là value type
 struct Persion {
     int age;
-    char *name;
+    char * name;
 };
 
 typedef struct {

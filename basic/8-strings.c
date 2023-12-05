@@ -10,4 +10,8 @@ int main() {
     }
 
     printf("\n%s", name);
+
+    // khai báo string thông qua pointer
+    char * s = "Manh Pham";
+    printf("%s", s);
 } 

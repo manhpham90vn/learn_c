@@ -7,13 +7,13 @@ int main() {
     printf("%p\n", &age);
 
     // create variable
-    int *address = &age;
+    int * address = &age;
     printf("address: %p value: %d\n", address, *address);
 
     // pointer in array
     // biến là mảng thì thực chất là pointer đến phần tử đầu tiên của mảng
     int prices[3] = {1, 2, 3};
-    printf("%u\n", *prices);
+    printf("%u\n", * prices);
     // truy cập phần tử thứ 2
-    printf("%u\n", *(prices + 1));
+    printf("%u\n", * (prices + 1));
 } 

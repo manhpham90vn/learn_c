@@ -4,7 +4,7 @@ void printOut(int value) {
     printf("%d\n", value);
 }
 
-void printString(char *value) {
+void printString(char * value) {
     printf("%s\n", value);
 }
 
@@ -14,7 +14,7 @@ void do_not_increment(int value) {
 }
 
 // update giá trị bằng cách truyền vào pointer
-void increment(int *value) {
+void increment(int * value) {
     *value += 1;
 }
 
