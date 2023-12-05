@@ -6,7 +6,7 @@
 // gcc main.c && ./a.out
 // gcc main.c -o application && ./application
 // gcc main.c -Wall -o output -> enables all compiler’s warning messages
-// gcc main.c -Wall -save-temps -o output -> shows all generated
+// gcc main.c -Wall -save-temps -o output -> shows all generated files
 
 // static & dynamic linking
 // compile as static: gcc -static  main.c
