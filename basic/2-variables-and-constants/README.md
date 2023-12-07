@@ -7,3 +7,5 @@
     - all local variable are automatic by default
 - Extern Variables
 - Register Variables
+
+## Const

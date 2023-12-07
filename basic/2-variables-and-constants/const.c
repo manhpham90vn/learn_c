@@ -1,7 +1,10 @@
 #include <stdio.h>
 
+#define PI 3.14
+
 int main() {
     const int x = 1;
 
-    printf("%d", x);
+    printf("x: %d\n", x);
+    printf("PI: %f\n", PI);
 }
