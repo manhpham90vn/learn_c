@@ -22,3 +22,7 @@ int * const ptr
 const int * const ptr;
 ```
 ![img](./img.png)
+
+## Scrope
+- Global Scope
+- Local Scope
