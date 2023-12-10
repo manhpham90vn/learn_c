@@ -4,11 +4,13 @@
 #include <string.h>
 #include <assert.h>
 #include <stdbool.h>
+#include "../headers/convert.h"
 
 int main() {
 
     // stdio func
     printf("Hello\n");
+    debug("Hello");
 
     // math func
     int result = sqrt(4);
